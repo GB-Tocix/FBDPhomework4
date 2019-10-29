@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd43b726-ca4c-4c83-ac29-82885a384a89" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1SrGYVUHwBRbL9JjSp4Gdc4f6Pr" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/RelationAlgebra" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\FBDPhomework4\src\main\java\RelationAlgebra" />
+      <recent name="G:\FBDPhomework4\src\main\java\Matrix" />
+      <recent name="G:\FBDPhomework4\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NaturalJoin">
+    <configuration name="Difference" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RelationAlgebra.Difference" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/ hdfs://localhost:9000/output/ Ra2.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelationAlgebra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Intersection" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RelationAlgebra.Intersection" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/ hdfs://localhost:9000/output/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelationAlgebra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixMultiply" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrix.MatrixMultiply" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/M_3_4.txt hdfs://localhost:9000/input/N_4_2.txt hdfs://localhost:9000/output/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaturalJoin" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RelationAlgebra.NaturalJoin" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/ hdfs://localhost:9000/output/ 0 Ra.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelationAlgebra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Projection" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RelationAlgebra.Projection" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/Ra.txt hdfs://localhost:9000/output/ 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelationAlgebra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selection" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RelationAlgebra.Selection" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/Ra.txt hdfs://localhost:9000/output/ 2 18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RelationAlgebra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.hadoop.examples.WordCount" />
+      <module name="FBDPhomework4" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://localhost:9000/input/ hdfs://localhost:9000/output/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.MatrixMultiply" />
+      <item itemvalue="Application.Selection" />
+      <item itemvalue="Application.Projection" />
+      <item itemvalue="Application.Intersection" />
+      <item itemvalue="Application.Difference" />
+      <item itemvalue="Application.NaturalJoin" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd43b726-ca4c-4c83-ac29-82885a384a89" name="Default Changelist" comment="" />
+      <created>1572314348424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572314348424</updated>
+      <workItem from="1572314352542" duration="16171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
