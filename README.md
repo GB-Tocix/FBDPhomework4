@@ -30,18 +30,18 @@
 
 
 
-- *[矩阵乘法] MatrixMultiple*
+- __[矩阵乘法] MatrixMultiple__
   
-  - *代码目录：*FBDPhomework4/src/main/java/Matrix/MatrixMultiply.java 
+  - __代码目录：__FBDPhomework4/src/main/java/Matrix/MatrixMultiply.java 
 
-  - *说明：*原代码在从矩阵文件名中获取行列长度时，并不能很好地自动去掉“.txt”部分，例如在程序执行的过程中，会误认为“4.txt”是 M 的列数，这时候我选择使用<u>截取子串</u> `substring(0,1)` 的方式将“4”留下，而将“.txt”丢弃。
+  - __说明：__原代码在从矩阵文件名中获取行列长度时，并不能很好地自动去掉“.txt”部分，例如在程序执行的过程中，会误认为“4.txt”是 M 的列数，这时候我选择使用<u>截取子串</u> `substring(0,1)` 的方式将“4”留下，而将“.txt”丢弃。
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/add_substring.png)
   
-  - *运行参数：*Idea 运行时设置的参数如下：
+  - __运行参数：__Idea 运行时设置的参数如下：
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Matrix_configuration.png)
   
-  - *输出结果：*经检验，输出结果<u>正确</u>。
+  - __输出结果：__经检验，输出结果<u>正确</u>。
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/output_matrix.png)
 
@@ -49,11 +49,11 @@
 
 
 
-- *[关系代数-选择] Selection*
+- __[关系代数-选择] Selection__
   
-  - *代码目录：*FBDPhomework4/src/main/java/RelationAlgebra/Selection.java
+  - __代码目录：__FBDPhomework4/src/main/java/RelationAlgebra/Selection.java
   
-  - *说明：*
+  - __说明：__
     
     - 原代码的`main`函数并没有设置`static`，在手动添加上去后便可以在 idea 中直接运行调试。
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/add_static.png)
@@ -62,9 +62,9 @@
     
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Selection_modification.png)
     
-  - *运行参数：*Idea 运行时设置的参数如下（去掉 age，换成 2）：![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Selection_configuration.png)
+  - __运行参数：__Idea 运行时设置的参数如下（去掉 age，换成 2）：![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Selection_configuration.png)
   
-  - *调试：*
+  - __调试：__
   
     - 遇到的<u>第一个问题</u>：
   
@@ -84,32 +84,32 @@
     
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Selection_final_solution.png)
     
-  - *输出结果：*经检验，输出结果<u>正确</u>。
+  - __输出结果：__经检验，输出结果<u>正确</u>。
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/output_selection.png)
 
 
 
-- *[关系代数-交集] Intersection*
-  - *代码目录：*FBDPhomework4/src/main/java/RelationAlgebra/Intersection.java
-  - *说明：*这份代码运行的很顺利，在阅读理解后直接运行就跑成功了。
-  - *运行参数：*Idea 运行时设置的参数如下
+- __[关系代数-交集] Intersection__
+  - __代码目录：__FBDPhomework4/src/main/java/RelationAlgebra/Intersection.java
+  - __说明：__这份代码运行的很顺利，在阅读理解后直接运行就跑成功了。
+  - __运行参数：__Idea 运行时设置的参数如下
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Intersection_configuration.png)
   
-  - *输出结果：*经检验，输出结果<u>正确</u>。  
+  - __输出结果：__经检验，输出结果<u>正确</u>。  
   
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/output_intersection.png)
 
   
   
-- *[关系代数-并集] Concurrency*
+- __[关系代数-并集] Concurrency__
   
-  - *代码目录：*FBDPhomework4/src/main/java/RelationAlgebra/Concurrency.java
+  - __代码目录：__FBDPhomework4/src/main/java/RelationAlgebra/Concurrency.java
   
-  - *说明：*原书代码中并没有给出并集的程序，结合原理一想，原来是因为它的实现和交集只相差了几个字符的改动。只需要将原来的“出现次数等于 2”，换成“大于等于 1”即可。并且改一改相关的类名和函数名。
+  - __说明：__原书代码中并没有给出并集的程序，结合原理一想，原来是因为它的实现和交集只相差了几个字符的改动。只需要将原来的“出现次数等于 2”，换成“大于等于 1”即可。并且改一改相关的类名和函数名。
   
-      *注：*这里附上改动过程中因为没考虑周全，而设置“等于 1”出现的错误结果
+      __注：__这里附上改动过程中因为没考虑周全，而设置“等于 1”出现的错误结果
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Concurrency_error_1.png)
   
@@ -117,35 +117,35 @@
   
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Concurrency_error_1_position.png)
   
-  - *运行参数：*Idea 运行时设置的参数与运行 Intersection 时的一致。
+  - __运行参数：__Idea 运行时设置的参数与运行 Intersection 时的一致。
   
-  - *输出结果：*经检验，输出结果<u>正确</u>。  
+  - __输出结果：__经检验，输出结果<u>正确</u>。  
   
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/output_concurrency.png)
   
   
   
-- *[关系代数-差集] Difference*
+- __[关系代数-差集] Difference__
   
-  - *代码目录：*FBDPhomework4/src/main/java/RelationAlgebra/Difference.java
+  - __代码目录：__FBDPhomework4/src/main/java/RelationAlgebra/Difference.java
   
-  - *说明：*这份代码运行的很顺利，在阅读理解后直接运行就跑成功了。
+  - __说明：__这份代码运行的很顺利，在阅读理解后直接运行就跑成功了。
   
-  - *运行参数：*Idea 运行时设置的参数如下
+  - __运行参数：__Idea 运行时设置的参数如下
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/Different_configuration.png)
   
-  - *输出结果：*经检验，输出结果<u>正确</u>。
+  - __输出结果：__经检验，输出结果<u>正确</u>。
 
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/output_Difference.png)
   
   
   
-- *[关系代数-自然连接] Naturaljoin*
+- __[关系代数-自然连接] Naturaljoin__
   
-  - *代码目录：*FBDPhomework4/src/main/java/RelationAlgebra/Natrualjoin.java
+  - __代码目录：__FBDPhomework4/src/main/java/RelationAlgebra/Natrualjoin.java
   
-  - *说明：*原书代码中的这一部分需要做出较大的改动。
+  - __说明：__原书代码中的这一部分需要做出较大的改动。
   
       - 首先是因为代码中并不能够区分出模式 `RelationA`和 `RelationB`，会产生读取以及后续相关的错误。所以结合理解<u>我做出了如下的改动</u>。
   
@@ -159,10 +159,10 @@
   
           ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/NaturalJoin_modification.png)
   
-  - *运行参数：*Idea 运行时设置的参数如下
+  - __运行参数：__Idea 运行时设置的参数如下
   
     ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/NaturalJoin_configuration.png)
   
-  - *输出结果：*经检验，输出结果<u>正确</u>。  
+  - __输出结果：__经检验，输出结果<u>正确</u>。  
   
       ![](https://raw.githubusercontent.com/GB-Tocix/FBDPhomework4/master/pic/output_Natrualjoin.png)
