@@ -4,21 +4,21 @@
 
 2. 给出关系代数的选择、投影、并集、交集、差集及自然连接的 MapReduce 实现。测试集如下：
 
-- 关系Ra：(id, name, age, weight)
+    - 关系Ra：(id, name, age, weight)
 
-- 关系Rb：(id, gender, height)
+    - 关系Rb：(id, gender, height)
 
   	2.1 在 Ra.txt 上选择 age = 18 的记录；在 Ra.txt 上选择 age < 18 的记录
 
-    	2.2 在 Ra.txt 上对属性name进行投影
+    2.2 在 Ra.txt 上对属性name进行投影
 
-    	2.3 求 Ra1 和 Ra2 的并集
+    2.3 求 Ra1 和 Ra2 的并集
 
-    	2.4 求 Ra1 和 Ra2 的交集
+    2.4 求 Ra1 和 Ra2 的交集
 
-    	2.5 求 Ra2 - Ra1
+    2.5 求 Ra2 - Ra1
 
-    	2.6 Ra 和 Rb 在属性 id 上进行自然连接，要求最后的输出格式为(id, name, age, gender, weight, height)
+    2.6 Ra 和 Rb 在属性 id 上进行自然连接，要求最后的输出格式为(id, name, age, gender, weight, height)
 
   
 
